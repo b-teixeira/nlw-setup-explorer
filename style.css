@@ -23,6 +23,14 @@ header {
   background-color: #09090a;
 }
 
+header img:hover {
+  transform: scale(1.2);
+}
+
+header img {
+  transition: transform 0.5s;
+}
+
 button {
   padding: 16px 24px;
   border-radius: 8px;
@@ -42,7 +50,6 @@ button {
 
 button:hover {
   background-color: #8b5cf6;
-  
 }
 
 #form-habits {
@@ -106,11 +113,17 @@ input {
   border-radius: 8px;
 
   background: #18181b;
+
+  transition: transform 0.5s;
 }
 
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bf4;
+}
+
+input:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 570px) {
