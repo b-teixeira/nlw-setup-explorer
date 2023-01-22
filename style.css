@@ -40,6 +40,11 @@ button {
   line-height: 125%;
 }
 
+button:hover {
+  background-color: #8b5cf6;
+  
+}
+
 #form-habits {
   display: flex;
 
